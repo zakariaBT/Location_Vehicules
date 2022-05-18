@@ -88,7 +88,7 @@
                             <div class="name my-4 ">Upload Images</div>
                             @foreach ($images as $image )
                             <div class="mb-5">
-                            <a id="{{basename($image)}}" href="{{route('image.delete',$vehicule)}}"  class="delete-image " ><i class="fas fa-times fa-1x"></i></a>
+                            <a id="{{basename($image}}" href="{{route('image.delete',$vehicule)}}"  class="delete-image " ><i class="fas fa-times fa-1x"></i></a>
                             <br>
                             <img class="img-thumbnail image " src="{{asset('images/'.$vehicule->name.'/'.basename($image))}}" alt={{basename($image)}}>
                             </div>

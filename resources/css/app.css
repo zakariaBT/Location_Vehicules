@@ -515,8 +515,13 @@
   .columnI {
     width: 155px !important;
   }
+  @media screen and (max-width: 992px) {
+      .column{
+          font-size: small;
+      }
+  }
 
-
+/*
   @media screen and (max-width: 992px) {
     table {
       display: block;
@@ -579,10 +584,8 @@
         content: "Action";
     }
 
-
-
-
-  }
+}
+*/
 .upload{
     display: inline-block;
     background-color: indigo;

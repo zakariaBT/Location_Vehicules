@@ -24,6 +24,9 @@
                       @guest('admin')
                       <li class="nav-item"><a class="nav-link" href="{{route('login')}}">login</a></li>
                       @endguest
+                      @auth('admin')
+                      <li class="nav-item"><a class="nav-link" href="{{route('dashboard')}}">Dashboard</a></li>
+                      @endauth
                     </ul>
                 </div>
             </div>
